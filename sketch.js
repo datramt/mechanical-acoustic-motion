@@ -30,7 +30,7 @@ function draw() {
   background(30);
 	yAngle = sin(millis()*freq/2.777778);
 	xAngle = cos(millis()*freq/2.777778);
-  	//need to optimize array (avoid massive gaps)
+
 	for (var x = 0; x < width/cell ; x++) {
 		for (var y = 0; y < height/cell; y++) {
 			noStroke();
